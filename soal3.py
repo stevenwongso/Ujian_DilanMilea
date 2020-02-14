@@ -30,5 +30,5 @@ data3 =  requests.get(url3)
 jarak = data3.json()
 
 print(f'Kode Pos lokasi Dilan adalah {kodeposdilan}')
-print(f'Kode Pos lokasi Milea adalag {kodeposmilea}') 
+print(f'Kode Pos lokasi Milea adalah {kodeposmilea}') 
 print(f'Jarak Dilan & Milea adalah {jarak["distance"]} km')    
